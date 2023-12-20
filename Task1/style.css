@@ -33,7 +33,7 @@ header{
     padding-top: 30px;
     padding-right: 10%;
     padding-left: 10%;
-    /* background: rgba(0,0,0,0.1); */
+    background: rgba(0,0,0,0.1);
     position: fixed;
     width: 100%;
     /* transition: 0.6s;
@@ -64,15 +64,16 @@ nav ul li a{
     font-weight: 100;
 }
 
-nav ul li a:hover{
+/* nav ul li a:hover{
     color: #C88D44;
-}
+} */
 
 #btn1{
-    padding: 6px 26px;
+    padding: 6px 28px;
     background: rgba(0,0,0,0.1);
-    border: 2px solid #C88D44;
+    border: 1.5px solid #8d6449;
     color: #fff;
+    letter-spacing: 1px;
     font-family: 'Bacasime Antique', serif;
     border-radius: 10px;
     font-size: 17px;
@@ -83,16 +84,16 @@ nav ul li a:hover{
 #btn1:hover{
     transform: scale(1.1);
     cursor: pointer;
-    background-color: #C88D44;
+    background-color: #8d6449;
 }
 
 /*********************************** HOME *********************************/
 
-#home{
+#banner-container{
     position: relavtive;
     width: 100%;
     height: 100dvh;
-    background-image: linear-gradient(rgba(39, 45, 49, 0.4),rgba(155, 115, 5, 0.2)), url(./assets/final_banner.png); /* linear-gradient(rgba(39, 45, 49, 0.4),rgba(155, 115, 5, 0.2)) */
+    background-image: linear-gradient(rgba(45, 46, 47, 0.156),rgba(155, 115, 5, 0.2)), url(./assets/final_banner.png); /* linear-gradient(rgba(57, 59, 60, 0.156),rgba(155, 115, 5, 0.2)) */
     background-size: cover;
     background-position: top;
 }
@@ -107,64 +108,68 @@ nav ul li a:hover{
 }
 
 #raja{
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Noto Sans Kawi', sans-serif;
-    letter-spacing: 2px;
-    font-weight: 1000;
-    color: #846051;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    color: #553939;
 }
 
 #banner hr{
-    width: 50px;
+    width: 40px;
     margin-top: 6px;
     /* margin-bottom: px; */
     margin-left: auto;
     margin-right: auto;
     /* margin: 1px auto; */
-    border: 1px solid #846051;
+    border: 1px solid #553939;
 }
 
 #st1{
-    font-size: 50px;
-    padding-bottom: 10px;
+    font-size: 70px;
+    padding-bottom: 20px;
     font-family: 'Kalnia', serif;
     font-weight: 1000;
-    color: #fff;
+    color: #E5E5CB;
 }
 
 #st2{
-    font-size: 20px;
+    font-size: 25px;
+    border: transparent;
+    background: rgba(0,0,0,0.2);
+    border-bottom: 1000px;
     font-family: 'Bacasime Antique', serif;
     color: #fff;
     font-weight: 500;
-    padding-top: 10px;
-    /* letter-spacing: 1px; */
+    padding-top: 20px;
+    letter-spacing: 1px;
 }
 
 #kp{
     font-size: 25px;
-    color: bisque;
+    color: #E5E5CB;
 }
 
 #btn2{
-    margin-top: 30px;
-    margin-right: 20px;
-    padding: 6px 30px;
-    background: #C88D44;
+    margin-top: 40px;
+    margin-right: 30px;
+    padding: 10px 40px;
+    background: #3C2A21; /* #51372a */
     border: none;
     color: #fff;
     font-family: 'Bacasime Antique', serif;
     border-radius: 10px;
+    box-shadow: 0,0, 1em, 0.25em white;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
 }
 
 #btn3{
-    margin-top: 30px;
-    padding: 6px 30px;
-    background: transparent;
-    border: 2px solid #C88D44;
+    margin-top: 40px;
+    padding: 8px 32px;
+    background: rgba(0,0,0,0.2);
+    border: 2px solid #51372a;
     color: #fff;
     font-family: 'Bacasime Antique', serif;
     border-radius: 10px;
