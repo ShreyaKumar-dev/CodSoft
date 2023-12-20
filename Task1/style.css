@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* color: white; */
 }
 
 html,body{
@@ -89,7 +88,7 @@ nav ul li a{
 
 /*********************************** HOME *********************************/
 
-#banner-container{
+#home_sec{
     position: relavtive;
     width: 100%;
     height: 100dvh;
@@ -107,6 +106,10 @@ nav ul li a{
     /* color: #fff; */
 }
 
+vertext{
+    writing-mode:vertical-lr;
+}
+
 #raja{
     font-size: 12px;
     font-family: 'Noto Sans Kawi', sans-serif;
@@ -118,10 +121,8 @@ nav ul li a{
 #banner hr{
     width: 40px;
     margin-top: 6px;
-    /* margin-bottom: px; */
     margin-left: auto;
     margin-right: auto;
-    /* margin: 1px auto; */
     border: 1px solid #553939;
 }
 
@@ -142,6 +143,7 @@ nav ul li a{
     color: #fff;
     font-weight: 500;
     padding-top: 20px;
+    padding-bottom: 10px;
     letter-spacing: 1px;
 }
 
@@ -153,7 +155,7 @@ nav ul li a{
 #btn2{
     margin-top: 40px;
     margin-right: 30px;
-    padding: 10px 40px;
+    padding: 10px 40px; /* padding: 10px 40px; */
     background: #3C2A21; /* #51372a */
     border: none;
     color: #fff;
@@ -163,11 +165,12 @@ nav ul li a{
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+    text-align: center;
 }
 
 #btn3{
     margin-top: 40px;
-    padding: 8px 32px;
+    padding: 8px 32px; /* padding: 8px 32px; */
     background: rgba(0,0,0,0.2);
     border: 2px solid #51372a;
     color: #fff;
@@ -176,8 +179,10 @@ nav ul li a{
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
-
 
 /*#tab{
     display: flex;
@@ -187,3 +192,19 @@ nav ul li a{
     width: 35%;
     font-size: x-large;
 }*/
+
+/*********************************** Articles *********************************/
+
+/* #article_sec{
+    background-color: linear-gradient(rgba(#382B13),rgba(#654520));
+} */
+
+/* #flex_the_para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+} */
