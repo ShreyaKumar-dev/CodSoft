@@ -195,9 +195,14 @@ vertext{
 
 /*********************************** Articles *********************************/
 
-/* #article_sec{
-    background-color: linear-gradient(rgba(#382B13),rgba(#654520));
-} */
+#article_sec{
+    background-image: linear-gradient(rgba(45, 46, 47, 0.156),rgba(155, 115, 5, 0.2)), url(./assets/banner5.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relavtive;
+    width: 100%;
+    height: 100dvh;
+}
 
 /* #flex_the_para{
     display: flex;
