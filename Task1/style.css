@@ -32,11 +32,15 @@ header{
     padding-top: 30px;
     padding-right: 10%;
     padding-left: 10%;
-    background: rgba(0,0,0,0.1);
+    /* background: rgba(0,0,0,0.1); */
     position: fixed;
     width: 100%;
     /* transition: 0.6s;
     z-index: 3; */
+    z-index: 3;
+    background: linear-gradient(180deg,rgba(0,0,0,.6),hsla(0,0%,63%,0));
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
 }
 
 #logo{
@@ -89,7 +93,7 @@ nav ul li a{
 /*********************************** HOME *********************************/
 
 #home_sec{
-    position: relavtive;
+    position: relative;
     width: 100%;
     height: 100dvh;
     background-image: linear-gradient(rgba(45, 46, 47, 0.156),rgba(155, 115, 5, 0.2)), url(./assets/final_banner.png); /* linear-gradient(rgba(57, 59, 60, 0.156),rgba(155, 115, 5, 0.2)) */
@@ -184,16 +188,16 @@ nav ul li a{
     overflow: hidden;
 }
 
-/*#tab{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: blue;
-    width: 35%;
-    font-size: x-large;
-}*/
-
 /*********************************** Articles *********************************/
+
+#merge{
+    width: 100%;
+    height: 20px;
+    transform: translateY(10%);
+    background: linear-gradient(180deg,rgba(0,0,0,.6),hsla(0,0%,63%,0));
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+}
 
 #article_sec{
     background-image: linear-gradient(rgba(45, 46, 47, 0.253),rgba(155, 115, 5, 0.2)), url(./assets/banner5.jpg);
@@ -214,6 +218,7 @@ nav ul li a{
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: #ffffff10;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
