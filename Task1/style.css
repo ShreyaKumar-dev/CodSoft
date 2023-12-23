@@ -209,7 +209,7 @@ nav ul li a{
 }
 
 #opacity_card{
-    position: absolute;
+    /* position: absolute;
     width: 1300px;
     height: 700px;
     border: 1.5px solid rgba(255, 255, 255, 0.3);
@@ -220,6 +220,19 @@ nav ul li a{
     background-color: #ffffff10;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37); */
+    position: absolute;
+    width: 1300px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid rbga(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
 }
 
 #text_prop{
@@ -250,6 +263,12 @@ nav ul li a{
 
 #p2 span{
     color: #000;
+}
+
+#d1, #d2, #d3{
+    width: 280px;
+    float: left;
+    /* margin: 10px; */
 }
 
 /* #flex_the_para{
