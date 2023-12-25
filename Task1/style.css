@@ -200,6 +200,18 @@ nav ul li a{
     backdrop-filter: blur(100px);
 }
 
+#vertical-text{
+    position: absolute;
+    width: 100%;
+    background-color: red;
+}
+
+#vertical-text h1{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Bacasime Antique', serif;
+}
+
 #article_sec{
     /* background-image: linear-gradient(rgba(45, 46, 47, 0.253),rgba(155, 115, 5, 0.2)), url(./assets/banner5.jpg);
     background-size: cover;
@@ -369,7 +381,7 @@ nav ul li a{
 /*********************************** Explore *********************************/
 
 #explore_sec{
-    background: #D5CEA3;
+    background: red; /* #D5CEA3 */
     position: relative;
     width: 100%;
     height: 100dvh;
