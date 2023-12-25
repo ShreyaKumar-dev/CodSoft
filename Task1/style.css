@@ -361,16 +361,6 @@ nav ul li a{
     margin-top: 20px;
 }
 
-/* #flex_the_para{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 100px;
-} */
-
 /*********************************** Explore *********************************/
 
 #explore_sec{
@@ -380,6 +370,33 @@ nav ul li a{
     height: 100dvh;
 }
 
-#explore_sec p{
-    color: #fff;
+#exp{
+    position: absolute;
+    text-align: center;
+    /* color: red; */
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#sub_head{
+    font-size: 12px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    color: #2A1E0F;  /*#553939*/
+    text-transform: uppercase;
+}
+
+#main_head{
+    font-size: 32px;
+    padding-bottom: 20px;
+    font-family: 'Kalnia', serif;
+    font-weight: bolder;
+    color: #2A1E0F;
+    letter-spacing: 0.5px;
+}
+
+#main_head span{
+    color: #A47E3B; /* #A47E3B */
 }
