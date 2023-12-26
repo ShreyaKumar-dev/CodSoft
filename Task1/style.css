@@ -367,12 +367,12 @@ nav ul li a{
     background: #D5CEA3; /* #D5CEA3 */
     position: relative;
     width: 100%;
-    height: 100dvh;
+    height: 150dvh;
 }
 
 #exp{
-    position: absolute;
     text-align: center;
+    position: absolute;
     /* color: red; */
     top: 15%;
     left: 50%;
@@ -400,3 +400,63 @@ nav ul li a{
 #main_head span{
     color: #A47E3B; /* #A47E3B */
 }
+
+#card1{
+    position: absolute;
+    /* color: red; */
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    align-items: center;
+    /* background: #000; */
+}
+
+#card1 #text_div{
+    text-align: left;
+    width: 10%;
+    flex: 1;
+}
+
+#card1 #text_div h1{
+    /* font-size: 12px; */
+    font-family: 'Bacasime Antique', serif;
+    /* letter-spacing: 1.5px; */
+    font-weight: bolder;
+    color: #2A1E0F;  /*#553939*/
+    padding-bottom: 10px;
+}
+
+#card1 #text_div p{
+    font-size: 14px;
+    font-family: 'Bacasime Antique', serif;
+    text-align: justify;
+    color: #2A1E0F; /*#553939*/
+}
+
+#card1 #text_div p span{
+    color: #994D1C;
+}
+
+#card1 #img_div{
+    /* width: 50%; */
+    margin-left: 90px;
+    display: flex;
+}
+
+#card1 #img_div img{
+    width: 200px;
+    height: 200px;
+    border: 1.5px solid #fff;
+}
+
+/* #card1 #ver{
+    font-size: 10px;
+    font-family: 'Bacasime Antique', serif;
+    color: #2A1E0F; /*#553939
+    transform: rotate(-90deg);
+}*/
