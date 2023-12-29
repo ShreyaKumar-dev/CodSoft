@@ -263,11 +263,6 @@ nav ul li a{
     font-weight: bolder;
     color: #E5E5CB;  /*#553939*/
     text-transform: uppercase;
-    /* font-size: 12px;
-    font-family: 'Noto Sans Kawi', sans-serif;
-    letter-spacing: 1.5px;
-    font-weight: bolder;
-    color: #553939; */
 }
 
 #p2{
@@ -297,13 +292,8 @@ nav ul li a{
 #give_flex{
     display: flex;
     flex-direction: row;
-    /* justify-content:space-around; */
-    /* align-items:normal; */
     flex-wrap: wrap;
     width: 1000px;
-    /* margin: 10px 50px; */
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
 }
 
 #d1{
@@ -811,12 +801,12 @@ nav ul li a{
     display: flex;
     align-items: flex-end;
     transition: .6s cubic-bezier(.28,-0.03,0,.99);
-    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.5);
 }
 
 .card > #row {
-    color: white;
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
 }
 
@@ -824,40 +814,41 @@ nav ul li a{
     background: #223;
     color: white;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 18px;
 }
 
 .card > #row #description {
-    display: flex;
     justify-content: center;
-    flex-direction: column;
     overflow: hidden;
-    height: 100px;
+    height: 60px;
     width: 300px;
-    opacity: 0;
+    opacity: 10;
     transform: translateY(30px);
     transition-delay: .3s;
     transition: all .3s ease;
 }
 
-#description p {
-    color: #000;
+/*#description p {
     padding-top: 5px;
     padding-bottom: 10px;
     padding-left: 5px;
-    padding-right: 5px;
-    font-size: 12px;
-}
+    color: #1C0A00;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 14px;
+} */
 
 #description h4 {
     text-transform: uppercase;
-    color: #000;
-    padding-left: 5px;
+    color: #fff;
+    font-family: 'Kalnia', serif;
+    /* letter-spacing: 1px; */
+    font-size: 16px;
+    padding-top: 28px;
 }
 
 input {
@@ -874,14 +865,47 @@ input:checked + label #description {
 }
 
 .card[for="c1"] {
-    background-image: url('./img1.jpeg');
+    background-image: url('./assets/Jaipur_Banner.jpg');
+    background-position: center;
 }
+
 .card[for="c2"] {
-    background-image: url('./img2.jpeg');
+    background-image: url('./assets/Udaipur_Banner.avif');
 }
 .card[for="c3"] {
-    background-image: url('./img3.jpeg');
+    background-image: url('./assets/Jodhpur_Banner.jpg');
+    background-position: center;
 }
 .card[for="c4"] {
-    background-image: url('./img4.jpeg');
+    background-image: url('./assets/Pushkar_Banner.jpg');
+}
+
+.card[for="c5"] {
+    background-image: url('./assets/ranthambore-national-park_Banner.jpg');
+    background-position: center;
+}
+
+.card[for="c6"] {
+    background-image: url('./assets/Chittorgarh_Banner.jpg');
+    background-position: center;
+}
+
+.card[for="c7"] {
+    background-image: url('./assets/mount-abu_Banner.jpg');
+    background-position: center;
+}
+
+.card[for="c8"] {
+    background-image: url('./assets/Bikaner_Banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card[for="c9"] {
+    background-image: url('./assets/Bundi_Banner.jpg');
+}
+
+.card[for="c10"] {
+    background-image: url('./assets/Mewar_Banner.jpg');
+    background-position: center;
 }
