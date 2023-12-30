@@ -1074,7 +1074,7 @@ input:checked + label #description {
 
 #sponsor_sec{
     background: #D5CEA3; /* #D5CEA3 */
-    height: 50dvh;
+    height: 40dvh;
     width: 100%;
     position: relative;
     align-items: center;
@@ -1111,17 +1111,97 @@ input:checked + label #description {
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    width: 90%;
+    width: 75%;
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%,-50%);
 }
 
 #sponsor_logo img{
-    width: 80px;
     height: 80px;
-    /* align-items: center;
-    justify-content: center; */
 }
+
+#sponsor_logo #big_logo{
+    height: 45px;
+}
+
+#sponsor_sec #hr_line{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    /* margin: 20px 0; */
+    margin-top: 20px;
+    height: 0.7px;
+    width: 70%;
+    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,#2A1E0F 49.17%,hsla(0,0%,88%,.05));
+}
+
+/************************************ Package ***********************************/
+
+#package_sec{
+    background: #D5CEA3; /* #D5CEA3 */
+    height: 100dvh;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+#package_sec #package_main_head{
+    text-align: center;
+    font-size: 30px;
+    color: #2A1E0F;
+    font-family: 'Kalnia', serif;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+#package_sec #package_content{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: auto;
+    text-align: left;
+}
+
+#package_sec #package_content #pcontent1{
+    font-size: 28px;
+    font-family: 'Kalnia', serif;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: #2A1E0F;  /*#553939*/
+    text-transform: capitalize;
+}
+
+#pcontent1 span{
+    color: #A47E3B;
+}
+
+#package_sec #package_content #pcontent2{
+    font-size: 16px;
+    font-family: 'Bacasime Antique', serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #2A1E0F;  /*#553939*/
+    text-transform: capitalize;
+}
+
+#package_sec #package_cards{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
