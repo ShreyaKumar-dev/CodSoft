@@ -863,7 +863,7 @@ nav ul li a{
     font-family: 'Kalnia', serif;
     /* letter-spacing: 1px; */
     font-size: 16px;
-    padding-top: 28px;
+    padding-top: 27.5px;
 }
 
 input {
@@ -950,48 +950,48 @@ input:checked + label #description {
 }
 
 .card[for="a1"] {
-    background-image: url('');
+    background-image: url('./assets/Bhangarh_Banner.jpg');
     background-position: center;
 }
 
 .card[for="a2"] {
-    background-image: url('');
+    background-image: url('./assets/Kuldhara_Banner.jpg');
 }
 .card[for="a3"] {
-    background-image: url('');
-    background-position: center;
+    background-image: url('./assets/Nahargarh_Banner.jpg');
+    background-position: right;
 }
 .card[for="a4"] {
-    background-image: url('');
+    background-image: url('./assets/Rana_Kumbh_Palace_Banner.jpg');
+    background-position: center;
 }
 
 .card[for="a5"] {
-    background-image: url('');
+    background-image: url('./assets/NH-79_Banner.jpg');
     background-position: center;
 }
 
 .card[for="a6"] {
-    background-image: url('');
+    background-image: url('./assets/Brij-Raj-Bhawan_Banner.png');
     background-position: center;
 }
 
 .card[for="a7"] {
-    background-image: url('');
-    background-position: center;
+    background-image: url('./assets/Jagatpura_Banner.jpg');
+    background-position: right;
 }
 
 .card[for="a8"] {
-    background-image: url('');
-    background-position: center;
-    background-size: cover;
+    background-image: url('./assets/Chand-Baori_Banner.jpg');
 }
 
 .card[for="a9"] {
-    background-image: url('');
+    background-image: url('./assets/Jal_Mahal_Banner.jpg');
+    background-position: center;
 }
 
 .card[for="a10"] {
-    background-image: url('');
+    background-image: url('./assets/Delhi-Jaipur-Highway_Banner.jpg');
     background-position: center;
 }
 
@@ -1020,47 +1020,47 @@ input:checked + label #description {
 }
 
 .card[for="b1"] {
-    background-image: url('');
+    background-image: url('./assets/Hotair-Ballooning_Banner.jpg');
     background-position: center;
 }
 
 .card[for="b2"] {
-    background-image: url('');
+    background-image: url('./assets/Jeep_Safari_Banner.jpg');
+    background-position: right;
 }
 .card[for="b3"] {
-    background-image: url('');
+    background-image: url('./assets/Zip-Lining_Banner.jpg');
     background-position: center;
 }
 .card[for="b4"] {
-    background-image: url('');
+    background-image: url('./assets/Paragliding_Banner.jpg');
 }
 
 .card[for="b5"] {
-    background-image: url('');
+    background-image: url('./assets/Trekking_Banner.jpg');
     background-position: center;
 }
 
 .card[for="b6"] {
-    background-image: url('');
+    background-image: url('./assets/Camping_Banner.avif');
     background-position: center;
 }
 
 .card[for="b7"] {
-    background-image: url('');
+    background-image: url('./assets/Wildlife-Safari_Banner.jpg');
     background-position: center;
 }
 
 .card[for="b8"] {
-    background-image: url('');
+    background-image: url('./assets/Water-Sports_Banner.jpg');
     background-position: center;
-    background-size: cover;
 }
 
 .card[for="b9"] {
-    background-image: url('');
+    background-image: url('./assets/Desert-Activity_Banner.jpg');
 }
 
 .card[for="b10"] {
-    background-image: url('');
+    background-image: url('./assets/Pottery_Banner.jpg');
     background-position: center;
 }
