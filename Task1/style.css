@@ -1218,6 +1218,14 @@ input:checked + label #description {
     overflow: hidden;
 }
 
+#pcard1 #pcontent{
+    position: relative;
+    top: 50%;
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    /* text-align: center; */
+}
+
 #package_cards #pcard2{
     background: url(./assets/Package2_BG.avif);
     border-radius: 10px;
