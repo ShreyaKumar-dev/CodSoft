@@ -577,7 +577,7 @@ nav ul li a{
     text-align: center;
 }
 
-#btn4 #txt{
+#txt{
     display: inline-flex;
     align-items: center;
     padding-left: 24px;
@@ -587,7 +587,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-#btn4 #icn{
+#icn{
     display: inline-flex;
     align-items: center;
     padding-right: 24px;
@@ -1167,6 +1167,7 @@ input:checked + label #description {
 #package_main_head #p_content{
     font-size: 16px;
     font-family: 'Bacasime Antique', serif;
+    letter-spacing: 0.5px;
     text-align: center;
     color: #2A1E0F;
     padding-top: 10px;
@@ -1202,6 +1203,7 @@ input:checked + label #description {
     font-weight: 500;
     color: #2A1E0F;  /*#553939*/
     text-transform: capitalize;
+    padding-top: 1.5px;
 }
 
 /*************** Package Cards ******************/
@@ -1263,7 +1265,7 @@ input:checked + label #description {
     /* text-wrap: wrap; */
     z-index: 1;
     position: relative;
-    top: 50%;
+    top: 53%;
     /* bottom: 0; */
     padding: 15px;
     width: 100%;
@@ -1275,9 +1277,10 @@ input:checked + label #description {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
-    padding-bottom: 10px;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
 }
 
 #rating{
@@ -1285,18 +1288,162 @@ input:checked + label #description {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 52px;
+    width: 60px;
 }
 
 #pcard_text{
-    font-size: 14.3px;
-    font-weight: 400;
-    padding-bottom: 10px;
-    letter-spacing: 0.5px;
+    font-size: 15.5px;
+    padding-bottom: 20px;
+    letter-spacing: 0.1px;
     line-height: 23px;
-    text-align: justify;
+}
+
+#division_line{
+    position: relative;
+    justify-content: center;
+    height: 0.7px;
+    width: 100%;
+    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,80%,.05) 0,#fff 49.17%,hsla(0,0%,88%,.05));
+}
+
+#price{
+    padding-top: 15px;
+    padding-bottom: 18px;
+    font-size: 17px;
 }
 
 #pcard_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#btn5{
+    position: relative;
+    width: 47%;
+    height: 50px;
+    padding: 5px 20px;
+    background: transparent;
+    border: 1.5px solid #fff;
+    color: #fff;
+    font-family: 'Lora', serif;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
     text-align: center;
+}
+
+#btn6{
+    position: relative;
+    width: 47%;
+    height: 50px;
+    background: #fff;
+    border: 1.5px solid #fff;
+    color: #000;
+    font-family: 'Lora', serif;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+#package_sec #more_package{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    height: 35px;
+}
+
+#more_package #find_more{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lora', serif;
+    color: #2A1E0F;
+    letter-spacing: 0.5px;
+}
+
+#more_package #find_more span{
+    color: #A47E3B;
+}
+
+#btn_section{
+    position: relative;
+    top: 100%;
+}
+
+#package_sec #customize{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lora', serif;
+    color: #2A1E0F;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+#package_sec #customize span{
+    color: #A47E3B;
+}
+
+#customize_btn{
+    position: absolute;
+    top: 95.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#btn7{
+    display: inline-flex;
+    height: 45px;
+    /* width: 160px; */
+    background: transparent;
+    border: 1.5px solid #2A1E0F;
+    padding: 0;
+    outline: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    align-items: center;
+    text-align: center;
+}
+
+#icn_cust{
+    display: inline-flex;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 13px;
+    color: #2A1E0F;
+    height: 80%;
+}
+
+#package_sec #hr_line{
+    position: absolute;
+    top: 80.8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    /* margin: 20px 0; */
+    margin-top: 20px;
+    height: 0.7px;
+    width: 70%;
+    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,beige 49.17%,hsla(0,0%,88%,.05));
 }
