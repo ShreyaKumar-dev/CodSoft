@@ -1152,6 +1152,9 @@ input:checked + label #description {
 
 #package_sec #package_main_head{
     text-align: center;
+}
+
+#package_main_head #p_head{
     font-size: 30px;
     color: #2A1E0F;
     font-family: 'Kalnia', serif;
@@ -1161,9 +1164,17 @@ input:checked + label #description {
     text-transform: uppercase;
 }
 
+#package_main_head #p_content{
+    font-size: 16px;
+    font-family: 'Bacasime Antique', serif;
+    text-align: center;
+    color: #2A1E0F;
+    padding-top: 10px;
+}
+
 #package_sec #package_content{
     position: absolute;
-    top: 13%;
+    top: 14%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 80%;
@@ -1193,9 +1204,11 @@ input:checked + label #description {
     text-transform: capitalize;
 }
 
+/*************** Package Cards ******************/
+
 #package_sec #package_cards{
     position: absolute;
-    top: 40%;
+    top: 41%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 80%;
@@ -1216,14 +1229,6 @@ input:checked + label #description {
     height: 100%;
     /* box-shadow: 0 0 10px 1px rgba(0,0,0,.3); */
     overflow: hidden;
-}
-
-#pcard1 #pcontent{
-    position: relative;
-    top: 50%;
-    /* left: 50%; */
-    /* transform: translate(-50%,-50%); */
-    /* text-align: center; */
 }
 
 #package_cards #pcard2{
@@ -1250,4 +1255,48 @@ input:checked + label #description {
     height: 100%;
     /* box-shadow: 0 0 10px 1px rgba(0,0,0,.3); */
     overflow: hidden;
+}
+
+#package_sec #pcontent{
+    display: flex;
+    flex-direction: column;
+    /* text-wrap: wrap; */
+    z-index: 1;
+    position: relative;
+    top: 50%;
+    /* bottom: 0; */
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+    font-family: 'Lora', serif;
+}
+
+#p_rating_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+#rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 52px;
+}
+
+#pcard_text{
+    font-size: 14.3px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+#pcard_btn{
+    text-align: center;
 }
