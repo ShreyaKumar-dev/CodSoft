@@ -1486,7 +1486,7 @@ input:checked + label #description {
     border-radius: 10px;
 }
 
-#outer_design #main_box{
+#main_box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1500,6 +1500,7 @@ input:checked + label #description {
     border: 1.5px solid rgba(255, 255, 255, 0.4);
     border-radius: 10px;
     text-align: center;
+    align-items: center;
 }
 
 #main_box #p1{
@@ -1509,8 +1510,8 @@ input:checked + label #description {
     color: #2A1E0F;
     letter-spacing: 1px;
     text-transform: capitalize;
-    margin-top: 30px;
-    padding-bottom: 8px;
+    margin-top: 50px;
+    margin-bottom: 8px;
 }
 
 #main_box #p2{
@@ -1519,4 +1520,68 @@ input:checked + label #description {
     font-weight: 500;
     color: #2A1E0F;
     /* margin-top: 10px; */
+}
+
+#main_box #your_name{
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_box #your_name p{
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.6px;
+    color: #2A1E0F;
+    padding-top: 9.8px;
+}
+
+#main_box #phone_no{
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_box #phone_no p{
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.6px;
+    color: #2A1E0F;
+    padding-top: 9.8px;
+}
+
+#main_box #call_me_btn{
+    width: 280px;
+    height: 50px;
+    background: #2A1E0F;
+    /* border: 1.5px solid rgba(255, 255, 255, 0.6); */
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 70px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
 }
