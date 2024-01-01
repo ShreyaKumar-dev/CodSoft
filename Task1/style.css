@@ -1450,16 +1450,59 @@ input:checked + label #description {
     background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,beige 49.17%,hsla(0,0%,88%,.05));
 }
 
-#package_sec #end_line{
+/* #package_sec #end_line{
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%,-50%);
     /* margin: 20px 0; */
-    /* margin-top: 20px; */
+    /* margin-top: 20px;
     height: 0.7px;
     width: 90%;
     background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,#D5CEA3 49.17%,hsla(0,0%,88%,.05));
+} */
+
+/************************************ Contact Us ***********************************/
+
+#contact_sec{
+    background-image: linear-gradient(
+    to bottom,
+    rgba(213,206,163, 1),
+    rgba(213,206,163, 0.8)
+    ), url("./assets/Pushkar_Mela.jpg"); /* #D5CEA3 */
+    /* background-color: white; */
+    background-size: cover;
+    background-position: center;
+    min-height: 90dvh;
+    width: 100%;
+    position: relative;
+    align-items: center;
 }
 
-/************************************ Footer ***********************************/
+#contact_sec #outer_design{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 470px;
+    height: 395px;
+    /* background: #D5CEA3; */
+    background: transparent;
+    border: 1.5px solid beige;
+    border-radius: 10px;
+}
+
+#outer_design #main_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 380px;
+    /* background: #D5CEA3; */
+    background-color: #ffffff10;   /* background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0)); */
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border: 1.5px solid beige;
+    border-radius: 10px;
+}
