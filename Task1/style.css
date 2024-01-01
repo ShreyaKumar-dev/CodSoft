@@ -54,7 +54,7 @@ header h2{
 nav ul li{
     list-style: none;
     display: inline-block;
-    padding: 20px 20px;
+    padding: 20px 25px;
     position: relative;
 }
 
@@ -64,6 +64,7 @@ nav ul li a{
     font-family: 'Bacasime Antique', serif;
     font-size: 18px;
     font-weight: 100;
+    letter-spacing: 0.5px;
 }
 
 #btn1{
@@ -139,7 +140,7 @@ nav ul li a{
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 #st2 span{
@@ -158,6 +159,7 @@ nav ul li a{
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
+    letter-spacing: 0.5px;
     cursor: pointer;
     text-align: center;
 }
@@ -172,6 +174,7 @@ nav ul li a{
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
+    letter-spacing: 0.5px;
     cursor: pointer;
     text-align: center;
     position: relative;
@@ -1144,7 +1147,7 @@ input:checked + label #description {
 
 #package_sec{
     background: #D5CEA3; /* #D5CEA3 */
-    height: 150dvh;
+    min-height: 150dvh;
     width: 100%;
     position: relative;
     align-items: center;
@@ -1440,10 +1443,23 @@ input:checked + label #description {
     top: 80.8%;
     left: 50%;
     transform: translate(-50%,-50%);
-    display: flex;
     /* margin: 20px 0; */
     margin-top: 20px;
     height: 0.7px;
     width: 70%;
     background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,beige 49.17%,hsla(0,0%,88%,.05));
 }
+
+#package_sec #end_line{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin: 20px 0; */
+    /* margin-top: 20px; */
+    height: 0.7px;
+    width: 90%;
+    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,#D5CEA3 49.17%,hsla(0,0%,88%,.05));
+}
+
+/************************************ Footer ***********************************/
