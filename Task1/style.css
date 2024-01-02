@@ -238,10 +238,10 @@ nav ul li a{
 #text_prop{
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: beige;
+    color: #f5f5dc;
 }
 
 #p1{
@@ -333,8 +333,22 @@ nav ul li a{
     letter-spacing: 1px;
 }
 
-#text_prop video{
-    margin-top: 20px;
+#vedio_part #bg_img{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+#vedio_part #play_btn{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
 }
 
 /*********************************** Explore *********************************/
@@ -1740,11 +1754,11 @@ footer{
 footer #div1{
     display: flex;
     flex-direction: column;
-    align-items: left;
     color: #2A1E0F;
     font-size: 12px;
     font-family: 'Lora', serif;
     text-align: left;
+    /* align-items: center; */
 }
 
 #div1 #reserved{
@@ -1788,6 +1802,7 @@ footer #div3{
     font-family: 'Lora', serif;
     letter-spacing: 0.9px;
     text-align: left;
+    /* align-items: center; */
 }
 
 #div3 #bottom_padding{
