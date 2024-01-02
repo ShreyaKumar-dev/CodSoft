@@ -1458,7 +1458,124 @@ input:checked + label #description {
 
 /************************************ Contact Us ***********************************/
 
-/* #contact_sec{
+/* #bg_sec{
+    background-image: linear-gradient(
+    to bottom,
+    rgba(213,206,163, 1),
+    rgba(213,206,163, 0.8)
+    ), url("./assets/Pushkar_Mela.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100dvh;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+#outer_box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 580px;
+    height: 420px;
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+#main_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 400px;
+    background-color: #ffffff10;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#main_box h2{
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    color: #2A1E0F;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+
+#mian_box p{
+    font-size: 16px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 500;
+    color: #2A1E0F;
+    letter-spacing: 1px;
+}
+
+#main_box form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main_box #name{
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    border-radius: 70px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.8px;
+    color: #2A1E0F;
+    margin-bottom: 10px;
+}
+
+#main_box #name:hover{
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+}
+
+#main_box #phone{
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    border-radius: 70px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.8px;
+    color: #2A1E0F;
+    margin-bottom: 30px;
+}
+
+#main_box #call_us{
+    width: 280px;
+    height: 50px;
+    background: #2A1E0F;
+    border-radius: 70px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+} */
+
+#contact_sec{
     background-image: linear-gradient(
     to bottom,
     rgba(213,206,163, 1),
@@ -1491,13 +1608,14 @@ input:checked + label #description {
     transform: translate(-50%,-50%);
     width: 600px;
     height: 400px;
-    background-color: #ffffff10;
+    background: #ffffff10;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     border: 1.5px solid rgba(255, 255, 255, 0.4);
     border-radius: 10px;
-    text-align: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #main_box #p1{
@@ -1567,156 +1685,20 @@ input:checked + label #description {
 #main_box #call_me_btn{
     width: 280px;
     height: 50px;
-    background: #2A1E0F;
+    background: #ffffff10;
+    border: none;
     position: absolute;
     top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 70px;
-    color: #fff;
+    color: #2A1E0F;
+    box-shadow: 6px 6px 6px -1px rgba(42, 30, 15, 0.10),
+                -6px -6px 6px -1px rgba(255, 255, 255, 0.30);
     text-transform: uppercase;
     font-family: 'Lora', serif;
-    letter-spacing: 1px;
-    font-size: 15px;
-    cursor: pointer;
-} */
-
-#bg_sec{
-    background-image: linear-gradient(
-    to bottom,
-    rgba(213,206,163, 1),
-    rgba(213,206,163, 0.8)
-    ), url("./assets/Pushkar_Mela.jpg"); /* #D5CEA3 */
-    /* background-color: white; */
-    background-size: cover;
-    background-position: center;
-    min-height: 100dvh;
-    width: 100%;
-    position: relative;
-    align-items: center;
-}
-
-#outer_box{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 580px;
-    height: 420px;
-    /* background: #D5CEA3; */
-    background: transparent;
-    border: 1.5px solid rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
-}
-
-#main_box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 600px;
-    height: 400px;
-    /* background: #D5CEA3; */
-    background-color: #ffffff10;   /* background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0)); */
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
-    border: 1.5px solid rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
-    text-align: center;
-    align-items: center;
-}
-
-#main_box h2{
-    font-size: 24px;
-    font-family: 'Lora', serif;
-    font-weight: bolder;
-    color: #2A1E0F;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin-top: 50px;
-    margin-bottom: 8px;
-}
-
-#mian_box p{
-    font-size: 16px;
-    font-family: 'Bacasime Antique', serif;
-    font-weight: 500;
-    color: #2A1E0F;
-    letter-spacing: 1px;
-}
-
-#main_box form{
-    /* margin-top: 30px; */
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#main_box #name{
-    width: 280px;
-    height: 40px;
-    background: transparent;
-    border: 1.5px solid rgba(255, 255, 255, 0.6);
-    /* position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    border-radius: 70px;
-    text-align: center;
-    /* justify-content: center; */
-    /* align-items: center; */
+    letter-spacing: 1.3px;
     font-size: 14px;
-    font-family: 'Lora', serif;
-    letter-spacing: 0.8px;
-    color: #2A1E0F;
-    margin-bottom: 10px;
-    /* padding-top: 9.8px; */
-}
-
-#main_box #name:hover{
-    border: 1.5px solid rgba(255, 255, 255, 0.6);
-}
-
-#main_box #phone{
-    width: 280px;
-    height: 40px;
-    background: transparent;
-    border: 1.5px solid rgba(255, 255, 255, 0.6);
-    /* position: absolute;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    border-radius: 70px;
-    text-align: center;
-    /* justify-content: center; */
-    /* align-items: center; */
-    font-size: 14px;
-    font-family: 'Lora', serif;
-    letter-spacing: 0.8px;
-    color: #2A1E0F;
-    margin-bottom: 30px;
-    /* padding-top: 9.8px; */
-}
-
-#main_box #call_us{
-    width: 280px;
-    height: 50px;
-    background: #2A1E0F;
-    /* border: 1.5px solid rgba(255, 255, 255, 0.6); */
-    /* position: absolute;
-    top: 78%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    border-radius: 70px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Lora', serif;
-    letter-spacing: 1.5px;
-    font-size: 15px;
     font-weight: 500;
     cursor: pointer;
 }
