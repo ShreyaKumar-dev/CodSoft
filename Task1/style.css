@@ -1266,7 +1266,7 @@ input:checked + label #description {
     /* bottom: 0; */
     padding: 15px;
     width: 100%;
-    color: #fff;
+    color: #E7DEC8;
     font-family: 'Lora', serif;
 }
 
@@ -1300,7 +1300,7 @@ input:checked + label #description {
     justify-content: center;
     height: 0.7px;
     width: 100%;
-    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,80%,.05) 0,#fff 49.17%,hsla(0,0%,88%,.05));
+    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,80%,.05) 0,#E7DEC8 49.17%,hsla(0,0%,88%,.05));
 }
 
 #price{
@@ -1322,8 +1322,8 @@ input:checked + label #description {
     height: 50px;
     padding: 5px 20px;
     background: transparent;
-    border: 1.5px solid #fff;
-    color: #fff;
+    border: 1.5px solid #E7DEC8;
+    color: #E7DEC8;
     font-family: 'Lora', serif;
     border-radius: 5px;
     font-size: 15px;
@@ -1337,8 +1337,8 @@ input:checked + label #description {
     position: relative;
     width: 47%;
     height: 50px;
-    background: #fff;
-    border: 1.5px solid #fff;
+    background: #E7DEC8;
+    border: 1.5px solid #E7DEC8;
     color: #000;
     font-family: 'Lora', serif;
     padding: 5px 20px;
@@ -1443,18 +1443,6 @@ input:checked + label #description {
     width: 70%;
     background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,beige 49.17%,hsla(0,0%,88%,.05));
 }
-
-/* #package_sec #end_line{
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    /* margin: 20px 0; */
-    /* margin-top: 20px;
-    height: 0.7px;
-    width: 90%;
-    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,#D5CEA3 49.17%,hsla(0,0%,88%,.05));
-} */
 
 /************************************ Contact Us ***********************************/
 
@@ -1583,10 +1571,12 @@ input:checked + label #description {
     ), url("./assets/Pushkar_Mela.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 90dvh;
+    min-height: 100dvh;
     width: 100%;
     position: relative;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact_sec #outer_design{
@@ -1619,19 +1609,19 @@ input:checked + label #description {
 }
 
 #main_box #p1{
-    font-size: 24px;
-    font-family: 'Lora', serif;
+    font-size: 26px;
+    font-family: 'Kalnia', serif;
     font-weight: bolder;
     color: #2A1E0F;
     letter-spacing: 1px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-top: 50px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 #main_box #p2{
-    font-size: 16px;
-    font-family: 'Bacasime Antique', serif;
+    font-size: 14px;
+    font-family: 'Lora', serif;
     font-weight: 500;
     color: #2A1E0F;
 }
@@ -1685,20 +1675,121 @@ input:checked + label #description {
 #main_box #call_me_btn{
     width: 280px;
     height: 50px;
-    background: #ffffff10;
+    background: #2A1E0F;  /* #ffffff30 */
     border: none;
+    border-radius: 70px;
+    box-shadow: 6px 6px 6px -1px rgba(42, 30, 15, 0.30),   /* rgba(239, 239, 239, 0.30) */
+    -6px -6px 6px -1px rgba(255, 255, 255, 0.30); 
     position: absolute;
     top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 70px;
-    color: #2A1E0F;
-    box-shadow: 6px 6px 6px -1px rgba(42, 30, 15, 0.10),
-                -6px -6px 6px -1px rgba(255, 255, 255, 0.30);
+    color: beige;       
     text-transform: uppercase;
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     letter-spacing: 1.3px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     cursor: pointer;
+}
+
+#icons_div{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contact_sec #hr_line{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    margin-top: 20px;
+    height: 0.7px;
+    width: 95%;
+    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,beige 49.17%,hsla(0,0%,88%,.05));
+}
+
+/************************************ Footer ***********************************/
+
+footer{
+    /* background: #2A1E0F; #D5CEA3 */
+    /* height: 5dvh;
+    width: 100%;
+    position: relative; */
+    width: 95%;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 20px; */
+    align-items: center;
+}
+
+footer #div1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #2A1E0F;
+    font-size: 12px;
+    font-family: 'Lora', serif;
+    text-align: left;
+}
+
+#div1 #reserved{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    width: 175px;
+    margin-bottom: 4px;
+    letter-spacing: 0.9px;
+    align-items: center;
+}
+
+footer #div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    /* margin-top: 5px; */
+    /* background: #000; */
+    /* height: 30px; */
+}
+
+footer #div1 #copywrite{
+    font-size: 12px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.9px;
+    /* padding-top: 5px; */
+}
+
+#div1 a{
+    color: #2A1E0F;
+}
+
+footer #div3{
+    display: flex;
+    flex-direction: column;
+    color: #2A1E0F;
+    /* margin-right: 50px; */
+    font-size: 12px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.9px;
+    text-align: left;
+}
+
+#div3 #bottom_padding{
+    padding-bottom: 4px;
 }
