@@ -341,27 +341,32 @@ nav ul li a{
     transform: translate(-50%,-50%);
     width: 500px;
     height: 280px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 #vedio_part #play_btn{
     position: absolute;
-    top: 73%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
     cursor: pointer;
 }
 
-#horizontal_part{
+#opacity_card #horizontal_part{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    justify-content: space-between;
+    text-transform: capitalize;
+    width: 164px;
+    letter-spacing: 0.9px;
+    align-items: center;
     font-size: 11px;
-    font-family: 'Bacasime Antique', serif;
-    color: #E5E5CB; /*#553939*/
+    color: #2A1E0F;
+    font-family: 'Lora', serif;
+    position: absolute;
+    top: 79.5%;
+    left: 64%;
+    transform: translate(-50%,-50%);
     transform: rotate(-90deg);
 }
 
