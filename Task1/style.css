@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    user-select: none;
 }
 
 html,body{
@@ -349,6 +350,19 @@ nav ul li a{
     left: 50%;
     transform: translate(-50%,-50%);
     cursor: pointer;
+}
+
+#horizontal_part{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 11px;
+    font-family: 'Bacasime Antique', serif;
+    color: #E5E5CB; /*#553939*/
+    transform: rotate(-90deg);
 }
 
 /*********************************** Explore *********************************/
@@ -1720,6 +1734,10 @@ input:checked + label #description {
     transform: translate(-50%, -50%);
 }
 
+#icons_div img{
+    cursor: pointer;
+}
+
 #contact_sec #hr_line{
     position: absolute;
     top: 85%;
@@ -1735,10 +1753,6 @@ input:checked + label #description {
 /************************************ Footer ***********************************/
 
 footer{
-    /* background: #2A1E0F; #D5CEA3 */
-    /* height: 5dvh;
-    width: 100%;
-    position: relative; */
     width: 95%;
     position: absolute;
     top: 94%;
@@ -1747,7 +1761,6 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin: 20px; */
     align-items: center;
 }
 
@@ -1758,7 +1771,6 @@ footer #div1{
     font-size: 12px;
     font-family: 'Lora', serif;
     text-align: left;
-    /* align-items: center; */
 }
 
 #div1 #reserved{
@@ -1777,16 +1789,12 @@ footer #div2{
     flex-direction: column;
     align-items: center;
     color: #fff;
-    /* margin-top: 5px; */
-    /* background: #000; */
-    /* height: 30px; */
 }
 
 footer #div1 #copywrite{
     font-size: 12px;
     font-family: 'Lora', serif;
     letter-spacing: 0.9px;
-    /* padding-top: 5px; */
 }
 
 #div1 a{
@@ -1797,14 +1805,18 @@ footer #div3{
     display: flex;
     flex-direction: column;
     color: #2A1E0F;
-    /* margin-right: 50px; */
     font-size: 12px;
     font-family: 'Lora', serif;
     letter-spacing: 0.9px;
     text-align: left;
-    /* align-items: center; */
 }
 
 #div3 #bottom_padding{
     padding-bottom: 4px;
+}
+
+
+#div3 a{
+    text-decoration: none;
+    color: #2A1E0F;
 }
