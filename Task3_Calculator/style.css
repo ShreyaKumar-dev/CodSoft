@@ -5,6 +5,7 @@
     font-family: sans-serif;
     box-sizing: border-box;
     outline: none;
+    user-select: none;
 }
 
 #wrapper{
@@ -21,18 +22,18 @@
     grid-template-columns: repeat(4,80px);
     border-radius: 20px;
     padding: 16px;
-    background: #C2CFD8;
-    box-shadow: -4px -4px 20px #fff, 6px 6px 10px rgba(0, 0, 0, 0.20);
+    background: #3a4452;
+    /* box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.1); */
 }
 
 input{
     grid-column: span 4;
     height: 70px;
     width: 300px;
-    background-color: transparent;
+    background: transparent;
     border: none;
-    box-shadow: inset -1px -1px 20px #fff,inset 6px 6px 10px rgba(0, 0, 0, 0.20);
-    color: grey;
+    box-shadow: inset -6px -6px 15px rgba(255, 255, 255, 0.1),inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    color: #E5E1DA;
     text-align: right;
     margin: 15px 10px 25px;
     padding: 20px;
@@ -45,10 +46,10 @@ button{
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: -1px -1px 15px #fff, 6px 6px 10px rgba(0, 0, 0, 0.20);
+    box-shadow: -6px -6px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.1);
     background: transparent;
-    font-size: 18px;
-    color: #000;
+    font-size: 20px;
+    color: #fff;
     cursor: pointer;
     margin: 10px;
 }
