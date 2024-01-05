@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    box-sizing: border-box;
     outline: none;
     user-select: none;
 }
@@ -29,7 +28,6 @@
 input{
     grid-column: span 4;
     height: 70px;
-    width: 300px;
     background: transparent;
     border: none;
     box-shadow: inset -6px -6px 15px rgba(255, 255, 255, 0.1),inset 5px 5px 15px rgba(0, 0, 0, 0.15);
@@ -53,6 +51,11 @@ button{
     cursor: pointer;
     margin: 10px;
 }
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 
 #equal{
     width: 142px;
