@@ -6,5 +6,67 @@
 
 body,html{
     /* font-family: 'Roboto', sans-serif; */
-    background-color: #000;
+    background-color: #E5E5CB;
+}
+
+#wrapper{
+    display: flex;
+    position: relative;
+}
+
+#wrapper #nav_bar{
+    width: 200px;
+    height: 97.3%;
+    /* background-image: linear-gradient(-45deg,grey,#050608); */
+    background-color: #1A120B;
+    position: fixed;
+    /* z-index: 1;
+    top: 0;
+    left: 0; */
+    overflow-x: hidden;
+    /* padding: 30px; */
+    /* transition: 0.5s; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#wrapper #nav_bar h2{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+
+}
+
+#wrapper #nav_bar h2 a{
+    color: #E5E5CB;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+#wrapper #nav_bar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+}
+
+#wrapper #nav_bar ul li a{
+    color: #E5E5CB;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    /* width: 100px; */
+    margin: 0 35px;
+    justify-content:space-between;
+    font-size: 18px;
+}
+
+#wrapper #nav_bar ul li:hover{
+    background: #E5E5CB;
+}
+
+#wrapper #nav_bar ul li:hover a{
+    color: #1A120B;
 }
