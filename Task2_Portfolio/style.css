@@ -14,8 +14,10 @@ body,html{
     position: relative;
 }
 
+/*************************************** NAVBAR *****************************************/
+
 #wrapper #nav_bar{
-    width: 160px;
+    width: 180px;
     height: 97.3%;
     /* background-image: linear-gradient(-45deg,grey,#050608); */
     background-color: #1A120B;
@@ -30,6 +32,8 @@ body,html{
     /* justify-content: center; */
     margin: 10px;
     border-radius: 10px;
+    font-family: 'Bacasime Antique', serif;
+    letter-spacing: 1px;
 }
 
 #wrapper #nav_bar h2{
@@ -37,12 +41,14 @@ body,html{
     margin-bottom: 40px;
     margin-top: 50px;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Kalnia', serif;
 }
 
 #wrapper #nav_bar h2 a{
     color: #E5E5CB;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 #wrapper #nav_bar ul li{
@@ -63,14 +69,15 @@ body,html{
     /* padding: 0 22px; */
     /* text-align: center; */
     align-items: center;
-    margin-left: 20px;
+    margin-left: 15px;
     /* justify-content: center; */
 }
 
 #wrapper #nav_bar ul li a p{
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     margin-left: 15px;
+    text-transform: uppercase;
 }
 
 #wrapper #nav_bar ul li:hover{
@@ -83,4 +90,40 @@ body,html{
 
 #wrapper #nav_bar .icn{
     color: #000;
+}
+
+/*************************************** Home Sec *****************************************/
+
+#wrapper #home_sec{
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+}
+
+/*************************************** Profile Pic Sec *****************************************/
+
+#wrapper #profile_pic_sec{
+    position: absolute;
+    top: 10px;
+    left: 1030px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 380px;
+    height: 500px;
+}
+
+/*************************************** About Me Sec *****************************************/
+
+#wrapper #about_sec{
+    position: absolute;
+    top: 530px;
+    left: 210px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 1200px;
+    height: 500px;
 }
