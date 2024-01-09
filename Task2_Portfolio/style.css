@@ -15,7 +15,7 @@ body,html{
 }
 
 #wrapper #nav_bar{
-    width: 200px;
+    width: 160px;
     height: 97.3%;
     /* background-image: linear-gradient(-45deg,grey,#050608); */
     background-color: #1A120B;
@@ -24,7 +24,7 @@ body,html{
     top: 0;
     left: 0; */
     overflow-x: hidden;
-    /* padding: 30px; */
+    /* padding: 30px 0; */
     /* transition: 0.5s; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -36,12 +36,11 @@ body,html{
     text-align: center;
     margin-bottom: 40px;
     margin-top: 50px;
-
+    text-transform: uppercase;
 }
 
 #wrapper #nav_bar h2 a{
     color: #E5E5CB;
-    text-transform: uppercase;
     text-decoration: none;
     font-size: 28px;
 }
@@ -50,6 +49,7 @@ body,html{
     padding: 15px;
     border-bottom: 1px solid rgba(0,0,0,0.05);
     border-top: 1px solid rgba(225,225,225,0.05);
+    text-align: center;
 }
 
 #wrapper #nav_bar ul li a{
@@ -58,9 +58,19 @@ body,html{
     flex-direction: row;
     text-decoration: none;
     /* width: 100px; */
-    margin: 0 35px;
-    justify-content:space-between;
+    /* margin: 0 30px; */
+    /* justify-content:space-between; */
+    /* padding: 0 22px; */
+    /* text-align: center; */
+    align-items: center;
+    margin-left: 20px;
+    /* justify-content: center; */
+}
+
+#wrapper #nav_bar ul li a p{
     font-size: 18px;
+    text-align: left;
+    margin-left: 15px;
 }
 
 #wrapper #nav_bar ul li:hover{
@@ -69,4 +79,8 @@ body,html{
 
 #wrapper #nav_bar ul li:hover a{
     color: #1A120B;
+}
+
+#wrapper #nav_bar .icn{
+    color: #000;
 }
