@@ -41,7 +41,7 @@ body,html{
     margin-bottom: 40px;
     margin-top: 50px;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-family: 'Kalnia', serif;
 }
 
@@ -140,9 +140,9 @@ body,html{
     height: 200px;
 }
 
-/*************************************** Project Sec *****************************************/
+/*************************************** Resume Sec *****************************************/
 
-#wrapper #project_sec{
+#wrapper #resume_sec{
     position: absolute;
     top: 1050px;
     left: 980px;
@@ -150,4 +150,41 @@ body,html{
     border-radius: 10px;
     width: 430px;
     height: 200px;
+}
+
+/*************************************** Project Sec *****************************************/
+
+#wrapper #project_sec{
+    position: absolute;
+    top: 1270px;
+    left: 210px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 1200px;
+    height: 900px;
+}
+
+/*************************************** Contact Sec *****************************************/
+
+#wrapper #contact_sec{
+    position: absolute;
+    top: 2190px;
+    left: 210px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 1200px;
+    height: 500px;
+}
+
+/*************************************** Footer *****************************************/
+
+#wrapper footer{
+    position: absolute;
+    top: 2710px;
+    left: 210px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 1200px;
+    height: 100px;
+    margin-bottom: 10px;
 }
