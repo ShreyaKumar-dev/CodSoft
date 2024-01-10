@@ -127,3 +127,27 @@ body,html{
     width: 1200px;
     height: 500px;
 }
+
+/*************************************** Skills Sec *****************************************/
+
+#wrapper #skill_sec{
+    position: absolute;
+    top: 1050px;
+    left: 210px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 750px;
+    height: 200px;
+}
+
+/*************************************** Project Sec *****************************************/
+
+#wrapper #project_sec{
+    position: absolute;
+    top: 1050px;
+    left: 980px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 430px;
+    height: 200px;
+}
