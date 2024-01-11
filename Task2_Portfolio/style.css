@@ -6,7 +6,7 @@
 
 body,html{
     /* font-family: 'Roboto', sans-serif; */
-    background-color: #E5E5CB;
+    background-color: #FAEED1;
 }
 
 #wrapper{
@@ -46,7 +46,7 @@ body,html{
 }
 
 #wrapper #nav_bar h2 a{
-    color: #E5E5CB;
+    color: #FAEED1;
     text-decoration: none;
     font-size: 26px;
 }
@@ -59,7 +59,7 @@ body,html{
 }
 
 #wrapper #nav_bar ul li a{
-    color: #E5E5CB;
+    color: #FAEED1;
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -81,11 +81,11 @@ body,html{
 }
 
 #wrapper #nav_bar ul li:hover{
-    background: #E5E5CB;
+    background: #FAEED1;
 }
 
 #wrapper #nav_bar ul li:hover a{
-    color: #1A120B;
+    color: #607274;
 }
 
 #wrapper #nav_bar .icn{
@@ -103,6 +103,30 @@ body,html{
     width: 800px;
     height: 500px;
 }
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+    color: #FAEED1;
+}
+
+#container .head{
+    font-size: 45px;
+    font-family: 'Kalnia', serif;
+}
+
+.head span{
+    color: azure;
+}
+
+#container #dynamic_view{
+    display: inline-flex;
+}
+
+
 
 /*************************************** Profile Pic Sec *****************************************/
 
