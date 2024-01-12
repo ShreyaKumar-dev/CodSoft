@@ -101,76 +101,57 @@ body,html{
     left: 210px;
     background: #1A120B;
     border-radius: 10px;
-    width: 800px;
-    height: 500px;
+    width: 750px;
+    height: 300px;
 }
 
-#container{
+#home_sec #container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: auto;
+    /* align-items: center; */
+    /* justify-content: center; */
     color: #FAEED1;
+    margin: 50px 110px;
 }
 
-#container .head{
+#head_svg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 515px;
+    justify-content: space-between;
+}
+
+#container #head_svg .head{
     font-size: 40px;
     font-family: 'Kalnia', serif;
 }
 
 .head span{
-    color: azure;
+    color: #fff;
 }
 
-#container #dynamic_view{
-    display: inline-flex;
-    margin-top: 10px;
-}
-
-#dynamic_view .static_txt{
-    font-size: 25px;
-    font-family: 'Bacasime Antique', serif;
-    /* margin-top: 10px; */
-    font-weight: 400;
-}
-
-#dynamic_view .dynamic_txt{
-    margin-left: 6px;
-}
-
-.dynamic_txt li{
-    list-style: none;
-    font-size: 25px;
-    font-family: 'Bacasime Antique', serif;
-    /* margin-top: 10px; */
-    font-weight: 400;
-}
-
-.dynamic_txt li span{
-    position: relative;
-}
-
-.dynamic_txt li span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
+#container .body{
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    margin-top: 20px;
     width: 100%;
-    border-left: 2px solid #fff;
-    animation: typing 1.5s steps(10) infinite;
+    line-height: 20px;
+    letter-spacing: 0.5px;
 }
 
-@keyframes typing{
-    100%{
-        left: 100;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
+#home_sec #container button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #FAEED1;
+    color: #1A120B;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    margin-top: 25px;
+    cursor: pointer;
+
 }
 
 /*************************************** Profile Pic Sec *****************************************/
@@ -178,10 +159,10 @@ body,html{
 #wrapper #profile_pic_sec{
     position: absolute;
     top: 10px;
-    left: 1030px;
+    left: 980px;
     background: #1A120B;
     border-radius: 10px;
-    width: 380px;
+    width: 430px;
     height: 500px;
 }
 
