@@ -7,6 +7,7 @@
 body,html{
     /* font-family: 'Roboto', sans-serif; */
     background-color: #FAEED1;
+    /* font-family: Poppins,sans-serif; */
 }
 
 #wrapper{
@@ -114,7 +115,7 @@ body,html{
 }
 
 #container .head{
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Kalnia', serif;
 }
 
@@ -124,9 +125,53 @@ body,html{
 
 #container #dynamic_view{
     display: inline-flex;
+    margin-top: 10px;
 }
 
+#dynamic_view .static_txt{
+    font-size: 25px;
+    font-family: 'Bacasime Antique', serif;
+    /* margin-top: 10px; */
+    font-weight: 400;
+}
 
+#dynamic_view .dynamic_txt{
+    margin-left: 6px;
+}
+
+.dynamic_txt li{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Bacasime Antique', serif;
+    /* margin-top: 10px; */
+    font-weight: 400;
+}
+
+.dynamic_txt li span{
+    position: relative;
+}
+
+.dynamic_txt li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #fff;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing{
+    100%{
+        left: 100;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 
 /*************************************** Profile Pic Sec *****************************************/
 
