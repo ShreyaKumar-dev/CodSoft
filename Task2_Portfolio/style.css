@@ -108,8 +108,6 @@ body,html{
 #home_sec #container{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
     color: #FAEED1;
     margin: 50px 110px;
 }
@@ -132,7 +130,7 @@ body,html{
 }
 
 #container .body{
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Lora', serif;
     margin-top: 20px;
     width: 100%;
@@ -140,18 +138,45 @@ body,html{
     letter-spacing: 0.5px;
 }
 
-/* #home_sec #container button{
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    background: #FAEED1;
-    color: #1A120B;
-    font-size: 16px;
-    font-family: 'Lora', serif;
-    margin-top: 25px;
+#btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#download_btn{
+    border-radius: 30px;
+    position: relative;
+    border: 1px solid #FAEED1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
     cursor: pointer;
-} */
+}
+
+#btn a{
+    text-decoration: none;
+}
+
+.btn-text{
+    padding: 0 40px;
+    font-family: 'Lora', serif;
+    color: #FAEED1;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn-icon{
+    background-color: #FAEED1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 12px;
+}
 
 /*************************************** Profile Pic Sec *****************************************/
 
@@ -169,12 +194,34 @@ body,html{
 
 #wrapper #about_sec{
     position: absolute;
-    top: 530px;
+    top: 330px;
     left: 210px;
     background: #1A120B;
     border-radius: 10px;
-    width: 1200px;
-    height: 500px;
+    width: 750px;
+    height: 590px;
+}
+
+#about_sec #container{
+    display: flex;
+    flex-direction: column;
+    color: #FAEED1;
+    margin: 50px 110px;
+}
+
+#container h1{
+    font-size: 40px;
+    font-family: 'Kalnia', serif;
+}
+
+#container p{
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    line-height: 20px;
+    letter-spacing: 0.5px;
 }
 
 /*************************************** Skills Sec *****************************************/
