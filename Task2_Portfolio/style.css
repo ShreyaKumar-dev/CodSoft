@@ -105,7 +105,7 @@ body,html{
     height: 300px;
 }
 
-#home_sec #container{
+#home_sec #container1{
     display: flex;
     flex-direction: column;
     color: #FAEED1;
@@ -120,7 +120,7 @@ body,html{
     justify-content: space-between;
 }
 
-#container #head_svg .head{
+#container1 #head_svg .head{
     font-size: 40px;
     font-family: 'Kalnia', serif;
 }
@@ -129,10 +129,10 @@ body,html{
     color: #fff;
 }
 
-#container .body{
+#container1 .body{
     font-size: 15px;
     font-family: 'Lora', serif;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 100%;
     line-height: 20px;
     letter-spacing: 0.5px;
@@ -151,6 +151,7 @@ body,html{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     overflow: hidden;
     cursor: pointer;
 }
@@ -178,6 +179,14 @@ body,html{
     padding: 12px;
 }
 
+#download_btn:hover{
+    background-color: #FAEED1;
+    transition: all 0.3s ease-in-out;
+    .btn-text{
+        color: #1A120B;
+    }
+}
+
 /*************************************** Profile Pic Sec *****************************************/
 
 #wrapper #profile_pic_sec{
@@ -202,19 +211,19 @@ body,html{
     height: 590px;
 }
 
-#about_sec #container{
+#about_sec #container3{
     display: flex;
     flex-direction: column;
     color: #FAEED1;
     margin: 50px 110px;
 }
 
-#container h1{
+#container3 h1{
     font-size: 40px;
     font-family: 'Kalnia', serif;
 }
 
-#container p{
+#container3 p{
     font-size: 15px;
     font-family: 'Lora', serif;
     margin-top: 30px;
@@ -222,37 +231,78 @@ body,html{
     width: 100%;
     line-height: 20px;
     letter-spacing: 0.5px;
+    span{
+        text-transform: capitalize;
+    }
 }
 
 /*************************************** Skills Sec *****************************************/
 
 #wrapper #skill_sec{
     position: absolute;
-    top: 1050px;
-    left: 210px;
-    background: #1A120B;
-    border-radius: 10px;
-    width: 750px;
-    height: 200px;
-}
-
-/*************************************** Resume Sec *****************************************/
-
-#wrapper #resume_sec{
-    position: absolute;
-    top: 1050px;
+    top: 530px;
     left: 980px;
     background: #1A120B;
     border-radius: 10px;
     width: 430px;
-    height: 200px;
+    height: 390px;
+}
+
+#skill_sec #container4{
+    display: flex;
+    flex-direction: column;
+    color: #FAEED1;
+    /* margin: 50px 110px; */
+}
+
+#container4 h1{
+    font-size: 30px;
+    font-family: 'Kalnia', serif;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 0.5px;
+}
+
+#container4 #skill_icns{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100px !important; */
+}
+
+#skill_icns #div{
+    display: flex;
+    flex-direction: row;
+    margin: 0 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div .nodejs{
+    height: 70px;
+}
+
+#div .MySQL{
+    height: 100px;
+}
+
+#div .reactjs{
+    height: 48px;
+}
+
+#div .python{
+    height: 48px;
+}
+
+#div .unity{
+    height: 40px;
 }
 
 /*************************************** Project Sec *****************************************/
 
 #wrapper #project_sec{
     position: absolute;
-    top: 1270px;
+    top: 940px;
     left: 210px;
     background: #1A120B;
     border-radius: 10px;
@@ -264,19 +314,19 @@ body,html{
 
 #wrapper #contact_sec{
     position: absolute;
-    top: 2190px;
+    top: 1860px;
     left: 210px;
     background: #1A120B;
     border-radius: 10px;
     width: 1200px;
-    height: 500px;
+    height: 300px;
 }
 
 /*************************************** Footer *****************************************/
 
 #wrapper footer{
     position: absolute;
-    top: 2710px;
+    top: 2180px;
     left: 210px;
     background: #1A120B;
     border-radius: 10px;
