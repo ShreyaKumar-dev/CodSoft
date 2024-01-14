@@ -13,3 +13,20 @@ Web Dev Internship Project by CodSoft (IT Services and IT Consultancy)
 It is a website that provides information about the tourist places, spooky places, thrilling activities and intresting facts about Rajasthan. It also provides the facility to book a hotels.<br>
 There are multiple packages for diffrent occasions specially crafted as per customer interest. Customers are also provided with facility to <b>customize</b> the package according to their priority.
 </p>
+
+<h3>Website Glimps</h3>
+
+# Task 2: Personal Portfolio
+<h3>Problem Statement</h3>
+<p>Create a <b>personal portfolio</b> using CSS and HTML</p>
+
+<h3>Requirements</h3>
+<ul>
+    <li>Header Section</li>
+    <li>About Section</li>
+    <li>Skills Section</li>
+    <li>Projects Section</li>
+    <li>Resume Section</li>
+    <li>Contact Section</li>
+    <li>Footer</li>
+</ul>
