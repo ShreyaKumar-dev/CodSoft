@@ -16,7 +16,7 @@ There are multiple packages for different occasions specially crafted as per cus
 
 <h3>Website Glimps</h3>
 <p>Home Section</p>
-
+![Home](https://github.com/ShreyaKumar-dev/CodSoft/assets/128055997/2757e0a1-4377-4e3b-8bd9-8d0e294eb156)
 <br><br>
 <p>Article Section</p>
 
