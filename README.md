@@ -16,31 +16,6 @@ It is an e-commerce website that provides information about tourist places, spoo
 There are multiple packages for different occasions specially crafted as per customer interest. Customers are also provided with the facility to <b>customize</b> the package according to their priority.
 </p>
 
-<h3>Website Glimps</h3>
-<p>Home Section</p>
-
-<br><br>
-
-<p>Article Section</p>
-
-<br><br>
-
-<p>Explore Section</p>
-
-<br><br>
-
-<p>Article Section</p>
-
-<br><br>
-
-<p>Gallery Section</p>
-
-<br><br>
-
-<p>Contact Section</p>
-
-<br><br>
-
 # Task 2: Personal Portfolio
 
 <h3>Problem Statement</h3>
@@ -57,8 +32,6 @@ There are multiple packages for different occasions specially crafted as per cus
     <li>Footer</li>
 </ul>
 
-<h3>Portfolio Glimps</h3>
-
 # Task 3: Calculator
 
 <h3>Problem Statement</h3>
@@ -66,5 +39,3 @@ There are multiple packages for different occasions specially crafted as per cus
 
 <h3>Requirements</h3>
 <p>HTML, CSS, JavaScript</p>
-
-<h3>Calculator Glimps</h3>
