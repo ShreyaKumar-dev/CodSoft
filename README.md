@@ -1,7 +1,9 @@
 # CodSoft
+
 Web Dev Internship Project by CodSoft (IT Services and IT Consultancy)
 
 # Task 1: Landing Page
+
 <h3>Problem Statement</h3>
 <p>Design a visually appealing and user-friendly design <b>Landing Page</b></p>
 
@@ -16,24 +18,31 @@ There are multiple packages for different occasions specially crafted as per cus
 
 <h3>Website Glimps</h3>
 <p>Home Section</p>
-![Home](https://github.com/ShreyaKumar-dev/CodSoft/assets/128055997/2757e0a1-4377-4e3b-8bd9-8d0e294eb156)
+
 <br><br>
+
 <p>Article Section</p>
 
 <br><br>
+
 <p>Explore Section</p>
 
 <br><br>
+
 <p>Article Section</p>
 
 <br><br>
+
 <p>Gallery Section</p>
 
 <br><br>
+
 <p>Contact Section</p>
 
 <br><br>
+
 # Task 2: Personal Portfolio
+
 <h3>Problem Statement</h3>
 <p>Create a <b>personal portfolio</b> using CSS and HTML</p>
 
@@ -51,6 +60,7 @@ There are multiple packages for different occasions specially crafted as per cus
 <h3>Portfolio Glimps</h3>
 
 # Task 3: Calculator
+
 <h3>Problem Statement</h3>
 <p>Develop a basic calculator with basic arithmetic operations such as addition, subtraction, multiplication, and division operations.</p>
 
