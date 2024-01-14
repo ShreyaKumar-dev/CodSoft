@@ -18,7 +18,7 @@ There are multiple packages for different occasions specially crafted as per cus
 
 <h3>Website Glimps</h3>
 <p>Home Section</p>
-![Home Page](./Output/Task1/Home.png)
+![Home Page](Home.png)
 <br><br>
 
 <p>Article Section</p>
