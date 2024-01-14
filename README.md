@@ -27,13 +27,10 @@ There are multiple packages for different occasions specially crafted as per cus
 <p>Article Section</p>
 
 <br><br>
-<p>Article Section</p>
+<p>Gallery Section</p>
 
 <br><br>
-<p>Article Section</p>
-
-<br><br>
-<p>Article Section</p>
+<p>Contact Section</p>
 
 <br><br>
 # Task 2: Personal Portfolio
