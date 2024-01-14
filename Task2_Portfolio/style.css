@@ -83,10 +83,12 @@ body,html{
 
 #wrapper #nav_bar ul li:hover{
     background: #FAEED1;
+    transition: 0.2s;
 }
 
 #wrapper #nav_bar ul li:hover a{
-    color: #607274;
+    color: #1A120B;
+    
 }
 
 #wrapper #nav_bar .icn{
@@ -197,6 +199,16 @@ body,html{
     border-radius: 10px;
     width: 430px;
     height: 500px;
+}
+
+#profile_pic_sec #container2{
+    margin: 10px;
+    height: 96%;
+    background: url(./assets/Portfolio_pic.jpg);
+    border-radius: 5px;
+    border: 1px solid #FAEED1;
+    background-position: top;
+    background-size: cover;
 }
 
 /*************************************** About Me Sec *****************************************/
@@ -359,7 +371,7 @@ body,html{
     font-size: 30px;
     font-weight: bolder;
     letter-spacing: 1px;
-    font-family: 'Bacasime Antique', serif;
+    font-family: 'Kalnia', serif;
     margin: 23px 50px;
     text-transform: uppercase;
 }
@@ -404,7 +416,7 @@ body,html{
     font-size: 25px;
     font-weight: bolder;
     letter-spacing: 1px;
-    font-family: 'Bacasime Antique', serif;
+    font-family: 'Kalnia', serif;
     margin: 23px 25px;
     text-transform: uppercase;
 }
@@ -449,7 +461,7 @@ body,html{
     font-size: 20px;
     font-weight: bolder;
     letter-spacing: 1px;
-    font-family: 'Bacasime Antique', serif;
+    font-family: 'Kalnia', serif;
     margin: 23px 25px;
     text-transform: uppercase;
 }
@@ -501,8 +513,8 @@ body,html{
     left: 210px;
     background: #1A120B;
     border-radius: 10px;
-    width: 500px;
-    height: 200px;
+    width: 400px;
+    height: 180px;
 }
 
 #about_sec #container6{
@@ -520,15 +532,73 @@ body,html{
     margin-top: 30px;
 }
 
+#contact_icn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 70px;
+}
+
+#wrapper #lets_talk{
+    position: absolute;
+    top: 2260px;
+    left: 630px;
+    background: #1A120B;
+    border-radius: 10px;
+    width: 782px;
+    height: 180px;
+}
+
+#lets_talk #con6 p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    color: #FAEED1;
+    font-family: 'Lora',serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    a{
+        text-decoration: underline;
+        color: #FAEED1;
+    }
+}
+
 /*************************************** Footer *****************************************/
 
 #wrapper footer{
     position: absolute;
-    top: 2180px;
+    top: 2460px;
     left: 210px;
     background: #1A120B;
     border-radius: 10px;
     width: 1200px;
     height: 100px;
     margin-bottom: 10px;
+}
+
+footer #container7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 250px;
+    font-family: 'Lora', serif;
+    color: #FAEED1;
+    letter-spacing: 0.5px;
+}
+
+#container7 #txt_c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container7 #txt_c p{
+    font-size: 13px;
+    a{
+        text-decoration: none;
+        color: #FAEED1;
+    }
 }
