@@ -10,11 +10,25 @@ Web Dev Internship Project by CodSoft (IT Services and IT Consultancy)
 
 <h3>Rajasthan Tourism Landing Page</h3>
 <p>
-It is a e-commerce website that provides information about the tourist places, spooky places, thrilling activities and intresting facts about Rajasthan. It also provides the facility to book a hotels.<br>
-There are multiple packages for diffrent occasions specially crafted as per customer interest. Customers are also provided with facility to <b>customize</b> the package according to their priority.
+It is an e-commerce website that provides information about tourist places, spooky places, thrilling activities, and interesting facts about Rajasthan. It also provides the facility to book hotels.<br>
+There are multiple packages for different occasions specially crafted as per customer interest. Customers are also provided with the facility to <b>customize</b> the package according to their priority.
 </p>
 
 <h3>Website Glimps</h3>
+<p>Home Section</p><br>
+![Screenshot 2024-01-14 184424](https://github.com/ShreyaKumar-dev/CodSoft/assets/128055997/77c8c3ee-eaa2-4aae-9d2c-aff5616ba7ea)
+<br><br>
+<p>Article Section</p><br>
+<br><br>
+<p>Explore Section</p><br>
+<br><br>
+<p>Article Section</p><br>
+<br><br>
+<p>Article Section</p><br>
+<br><br>
+<p>Article Section</p><br>
+<br><br>
+<p>Article Section</p><br>
 
 # Task 2: Personal Portfolio
 <h3>Problem Statement</h3>
