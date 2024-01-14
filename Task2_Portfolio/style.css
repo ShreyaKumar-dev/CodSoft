@@ -307,19 +307,217 @@ body,html{
     background: #1A120B;
     border-radius: 10px;
     width: 1200px;
-    height: 900px;
+    height: 1300px;
+}
+
+#project_sec #container5{
+    display: flex;
+    flex-direction: column;
+    color: #FAEED1;
+    margin: 50px 110px;
+    align-items: center;
+    justify-content: center;
+}
+
+#container5 h1{
+    font-size: 50px;
+    font-family: 'Kalnia', serif;
+}
+
+#proj1{
+    position: relative;
+    top: 50px;
+    width: 750px;
+    height: 400px;
+    border: 1px solid #FAEED1;
+    background: url(./assets/project1.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#proj1_desc{
+    position: relative;
+    top: 80%;
+    width: 100%;
+    height: 80px;
+    background: #ffffff10;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    /* border: 1.5px solid rgba(255, 255, 255, 0.4); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1{
+    color: #FAEED1;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Bacasime Antique', serif;
+    margin: 23px 50px;
+    text-transform: uppercase;
+}
+
+#d1{
+    margin: 23px 50px;
+}
+
+#proj2{
+    position: absolute;
+    top: 600px;
+    left: 225px;
+    width: 360px;
+    height: 500px;
+    border: 1px solid #FAEED1;
+    background: url(./assets/project2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#proj2_desc{
+    position: relative;
+    top: 84%;
+    width: 100%;
+    height: 80px;
+    background: #ffffff10;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    /* border: 1.5px solid rgba(255, 255, 255, 0.4); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h2{
+    color: #FAEED1;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Bacasime Antique', serif;
+    margin: 23px 25px;
+    text-transform: uppercase;
+}
+
+#d2{
+    margin: 23px 25px;
+}
+
+#proj3{
+    position: absolute;
+    top: 600px;
+    left: 615px;
+    width: 360px;
+    height: 500px;
+    border: 1px solid #FAEED1;
+    background: url(./assets/project3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#proj3_desc{
+    position: relative;
+    top: 83.8%;
+    width: 100%;
+    height: 80px;
+    background: #ffffff10;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    /* border: 1.5px solid rgba(255, 255, 255, 0.4); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h3{
+    color: #FAEED1;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Bacasime Antique', serif;
+    margin: 23px 25px;
+    text-transform: uppercase;
+}
+
+#container5 .m_btn{
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    border: 1px solid #FAEED1;
+    background: transparent;
+    width: 270px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.m_btn #txt{
+    font-family: 'Bacasime Antique', serif;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 10px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #FAEED1;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.m_btn #icn{
+    display: inline-flex;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 5px;
+    color: #2A1E0F;
+    height: 100%
 }
 
 /*************************************** Contact Sec *****************************************/
 
 #wrapper #contact_sec{
     position: absolute;
-    top: 1860px;
+    top: 2260px;
     left: 210px;
     background: #1A120B;
     border-radius: 10px;
-    width: 1200px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
+}
+
+#about_sec #container6{
+    display: flex;
+    flex-direction: column;
+}
+
+#container6 h3{
+    text-align: center;
+    font-size: 24px;
+    color: #FAEED1;
+    font-family: 'Kalnia', serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 30px;
 }
 
 /*************************************** Footer *****************************************/
