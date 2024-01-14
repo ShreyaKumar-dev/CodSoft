@@ -15,20 +15,27 @@ There are multiple packages for different occasions specially crafted as per cus
 </p>
 
 <h3>Website Glimps</h3>
-<p>Home Section</p><br>
-![Screenshot 2024-01-14 184424](https://github.com/ShreyaKumar-dev/CodSoft/assets/128055997/15b2a822-15d9-431b-88d0-a7900268e7fe)
-<p>Article Section</p><br>
-<br><br>
-<p>Explore Section</p><br>
-<br><br>
-<p>Article Section</p><br>
-<br><br>
-<p>Article Section</p><br>
-<br><br>
-<p>Article Section</p><br>
-<br><br>
-<p>Article Section</p><br>
+<p>Home Section</p>
 
+<br><br>
+<p>Article Section</p>
+
+<br><br>
+<p>Explore Section</p>
+
+<br><br>
+<p>Article Section</p>
+
+<br><br>
+<p>Article Section</p>
+
+<br><br>
+<p>Article Section</p>
+
+<br><br>
+<p>Article Section</p>
+
+<br><br>
 # Task 2: Personal Portfolio
 <h3>Problem Statement</h3>
 <p>Create a <b>personal portfolio</b> using CSS and HTML</p>
