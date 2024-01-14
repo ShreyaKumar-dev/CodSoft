@@ -10,7 +10,7 @@ Web Dev Internship Project by CodSoft (IT Services and IT Consultancy)
 
 <h3>Rajasthan Tourism Landing Page</h3>
 <p>
-It is a website that provides information about the tourist places, spooky places, thrilling activities and intresting facts about Rajasthan. It also provides the facility to book a hotels.<br>
+It is a e-commerce website that provides information about the tourist places, spooky places, thrilling activities and intresting facts about Rajasthan. It also provides the facility to book a hotels.<br>
 There are multiple packages for diffrent occasions specially crafted as per customer interest. Customers are also provided with facility to <b>customize</b> the package according to their priority.
 </p>
 
@@ -30,3 +30,14 @@ There are multiple packages for diffrent occasions specially crafted as per cust
     <li>Contact Section</li>
     <li>Footer</li>
 </ul>
+
+<h3>Portfolio Glimps</h3>
+
+# Task 3: Calculator
+<h3>Problem Statement</h3>
+<p>Develop a basic calculator with basic arithmetic operations such as addition, subtraction, multiplication, and division operations.</p>
+
+<h3>Requirements</h3>
+<p>HTML, CSS, JavaScript</p>
+
+<h3>Calculator Glimps</h3>
