@@ -16,34 +16,6 @@ It is an e-commerce website that provides information about tourist places, spoo
 There are multiple packages for different occasions specially crafted as per customer interest. Customers are also provided with the facility to <b>customize</b> the package according to their priority.
 </p>
 
-<<<<<<< HEAD
-<h3>Website Glimps</h3>
-<p>Home Section</p>
-
-<br><br>
-
-<p>Article Section</p>
-
-<br><br>
-
-<p>Explore Section</p>
-
-<br><br>
-
-<p>Article Section</p>
-
-<br><br>
-
-<p>Gallery Section</p>
-
-<br><br>
-
-<p>Contact Section</p>
-
-<br><br>
-
-=======
->>>>>>> 872e239742b4f3faa57a70421e573d26965b3842
 # Task 2: Personal Portfolio
 
 <h3>Problem Statement</h3>
