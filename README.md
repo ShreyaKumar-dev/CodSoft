@@ -16,6 +16,7 @@ It is an e-commerce website that provides information about tourist places, spoo
 There are multiple packages for different occasions specially crafted as per customer interest. Customers are also provided with the facility to <b>customize</b> the package according to their priority.
 </p>
 
+<<<<<<< HEAD
 <h3>Website Glimps</h3>
 <p>Home Section</p>
 <img src="./Document Photo/Avatar 1.jpeg">
@@ -42,6 +43,8 @@ There are multiple packages for different occasions specially crafted as per cus
 
 <br><br>
 
+=======
+>>>>>>> 872e239742b4f3faa57a70421e573d26965b3842
 # Task 2: Personal Portfolio
 
 <h3>Problem Statement</h3>
@@ -58,8 +61,6 @@ There are multiple packages for different occasions specially crafted as per cus
     <li>Footer</li>
 </ul>
 
-<h3>Portfolio Glimps</h3>
-
 # Task 3: Calculator
 
 <h3>Problem Statement</h3>
@@ -67,5 +68,3 @@ There are multiple packages for different occasions specially crafted as per cus
 
 <h3>Requirements</h3>
 <p>HTML, CSS, JavaScript</p>
-
-<h3>Calculator Glimps</h3>
