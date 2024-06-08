@@ -18,6 +18,7 @@ There are multiple packages for different occasions specially crafted as per cus
 
 <h3>Website Glimps</h3>
 <p>Home Section</p>
+<img src="./Document Photo/Avatar 1.jpeg">
 
 <br><br>
 
